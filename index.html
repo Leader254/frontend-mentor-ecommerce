@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+
+    <nav>
+      <div class="header">
+        <img src="images/icon-menu.svg" alt="menu-btn" id="menu-btn">
+        <img src="images/logo.svg" alt="logo-pic">
+        <div class="nav-items">
+          <div class="close-btn">
+            <img src="images/icon-close.svg" alt="close-btn" id="close-btn">
+          </div>
+          <a href="#">Collection</a>
+          <a href="#">Women</a>
+          <a href="#">Men</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="profile-and-cart">
+        <img src="images/icon-cart.svg" alt="cart-svg" id="cart">
+        <img src="images/image-avatar.png" alt="avatar" id="profile">
+      </div>
+    </nav>
+  <hr>
+    <div class="container">
+      <div class="product-images">
+        <div class="previous-and-next" id="previous-image">
+          <img src="images/icon-previous.svg" alt="">
+        </div>
+        <img src="images/image-product-1.jpg" class="product1" id="product1" alt="product1">
+        <div class="previous-and-next" id="previous-image">
+          <img src="images/icon-next.svg" alt="">
+        </div>
+        <div class="thumbnails">
+          <img src="images/image-product-1-thumbnail.jpg" class="product-thumbnail active-thumbnail" alt="image-product-1">
+          <img src="images/image-product-2-thumbnail.jpg" class="product-thumbnail" alt="image-product-2">
+          <img src="images/image-product-3-thumbnail.jpg" class="product-thumbnail" alt="image-product-3">
+          <img src="images/image-product-4-thumbnail.jpg" class="product-thumbnail" alt="image-product-4">
+        </div>
+      </div>
+      <div class="container2">
+        <h4>SNEAKER COMPANY</h4>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p class="description">These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-and-discount">
+          <h3>$125 <span class="discount">50%</span></h3>
+        </div>
+        <p class="old-price"><strike>$250.00</strike></p>
+        <div class="add-to-cart">
+          <div class="plus-and-minus">
+            <img src="images/icon-minus.svg" id="minus" alt="minus">
+            <span id="quantity">0</span>
+            <img src="images/icon-plus.svg" id="plus" alt="plus">
+          </div>
+          <button class="cart-btn">
+            <img src="images/icon-cart.svg" alt="cart">
+            <span>Add To Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Samuel Wachira</a>.
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
